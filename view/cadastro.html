@@ -10,33 +10,33 @@
 
 <body>
     <form>
-        <div class="container-sm">
+        <div class="container-sm col-sm-7 py-5 my-5 bg-primary text-white rounded">
             <div class="row">
                 <div class="col-sm-10">
                     <h1 class="text-center">Cadastro</h1>
                 </div>
                 <div class="row">
-                    <div class="col-sm-10">
+                    <div class="col-sm-10 mx-auto p-1">
                         <label>Nome:</label>
                         <input class="form-control" id="nome_pessoa" type="text" placeholder="Digite seu nome" />
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-10">
+                    <div class="col-sm-10 mx-auto p-1">
                         <label>E-mail:</label>
                         <input class="form-control" id="nome_login" type="email" placeholder="Digite seu email" />
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-5">
+                    <div class="d-flex col-sm-10 mx-auto justify-content-center gap-1">
                         <div class="d-flex">
                             <div class="row">
-                                <div class="col-sm-5">
+                                <div class="col-sm-6 p-1">
                                     <label>Senha:</label>
                                     <input class="form-control" id="senha_login" type="password"
                                         placeholder="Digite sua senha" />
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-sm-6 p-1">
                                     <label>Confirme a Senha:</label>
                                     <input class="form-control" id="conf_senha_login" type="password"
                                         placeholder="Digite novamente a senha" />
@@ -45,15 +45,9 @@
                         </div>
                     </div>
                 </div>
-                <div class=”row”>
-                    <div class="d-grid">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <button> Cadastrar </button>
-                            </div>
-                        </div>
+                    <div class="d-grid col-6 mx-auto p-5">
+                        <button class="btn btn-success"> Cadastrar </button>       
                     </div>
-                </div>
             </div>
     </form>
 </body>
